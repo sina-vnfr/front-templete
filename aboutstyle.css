@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior:smooth;
+  }
+#main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.2)50%, rgba(0,0,0,0.2)50%), url(aboutback.jpg);
+    background-size:100% 100vh;
+    background-repeat: no-repeat;
+    background-position:top;
+    height: 100vh;
+    
+    
+}
+#divlist{
+ 
+    background-color:yellowgreen;
+    height: 50px;
+    width: 100%;
+    margin: auto;
+    position:fixed;
+    z-index: 2;
+       
+}
+h2{
+    
+    color:white;
+    font-family:sans-serif;
+    text-shadow: 5px 5px 5px #000;
+}
+
+#divlist  ul{
+    display: flex;
+    float: left;
+    list-style: none;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#divlist ul li a{
+   
+    margin-left: 200px;
+    text-decoration: none;
+    color: white;
+    size: 20px;
+    font-size: 20px;
+    transition:  0.5s ease-in-out;
+  
+}
+#divlist ul li a:hover{
+    color: black;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    padding-bottom: 5px;
+    border-right: none;
+}
+#person{
+    border-radius: 200px;
+    margin-left: 100px;
+    width: 300px;
+    height: 300px;
+    margin-top: 200px;
+}
+#ul{
+    position: absolute;
+    margin: 20px;
+    margin-top: -250px;
+    margin-left: 800px;
+    font-size: 50px;
+    color: violet;
+}
+#line4{
+    position: absolute;
+    height: 120px;
+    margin-top: 130px;
+}
+#lastdiv{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 20px;
+}
+#lastul{
+     display: flex;
+     margin-left: 10px;
+     margin-top: 30px;
+     transition:  0.5s ease-in-out;
+     list-style: none;
+}
+#lastul a{
+    margin-left: 20px;
+}
+#lastul a:hover{
+
+   color: crimson;
+}

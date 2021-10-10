@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior:smooth;
+  }
+#main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(Background-Beautiful-Nature-Images-HD.jpg);
+    background-size:100% 100vh;
+    background-repeat: no-repeat;
+    background-position:top;
+    height: 300vh;
+    
+    
+}
+#divlist{
+ 
+    background-color:yellowgreen;
+    height: 50px;
+    width: 100%;
+    margin: auto;
+    position:fixed;
+    z-index: 2;
+       
+}
+h2{
+    
+    color:white;
+    font-family:sans-serif;
+    text-shadow: 5px 5px 5px #000;
+}
+
+#divlist  ul{
+    display: flex;
+    float: left;
+    list-style: none;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#divlist ul li a{
+   
+    margin-left: 200px;
+    text-decoration: none;
+    color: white;
+    size: 20px;
+    font-size: 20px;
+    transition:  0.5s ease-in-out;
+  
+}
+#divlist ul li a:hover{
+    color: black;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    padding-bottom: 5px;
+    border-right: none;
+}
+#weldiv{
+    position:absolute;
+    margin-top: 100px;
+    margin-left: 10px;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    text-shadow:10px 10px 5px black;
+    font-size: 50px;
+    
+}
+#backName{
+    font-size: 100px;
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 370px;
+    font-family:fantasy;
+    color: aliceblue; 
+    
+}
+#text1{
+    color:black;
+    position: absolute;
+    margin-top: 1100px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+#line1{
+    position: absolute;
+    height: 100px;
+    margin-top: 650px;
+}
+#picul{
+    display: flex;
+    float: left;
+    list-style: none;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 700px;
+}
+#logo1{
+    width: 200px;
+    height: 250px;
+    margin-top: 80px;
+    margin-left: 120px;
+}
+#logo2{
+    width: 250px;
+    height: 300px;
+    margin-top: 60px;
+    margin-left: 190px;
+}
+#logo3{
+    width: 370px;
+    height: 280px;
+    margin-top: 70px;
+    margin-left: 120px;
+}
+#line2{
+    position: absolute;
+    height: 1px;
+    border-radius: 5px;
+    margin-top: 1250px;
+    margin-left: 320px;
+}
+#text2{
+    color:black;
+    position: absolute;
+    margin-top: 1300px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+#line3{
+    position: absolute;
+    height: 1px;
+    border-radius: 5px;
+    margin-top: 1500px;
+    margin-left: 320px;
+}
+#text3{
+    color:black;
+    position: absolute;
+    margin-top: 1600px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+#line4{
+    position: absolute;
+    height: 120px;
+    margin-top: 1850px;
+}
+#lastdiv{
+    position: absolute;
+    margin-top: 1870px;
+    margin-left: 20px;
+}
+#lastul{
+     display: flex;
+     margin-left: 10px;
+     margin-top: 30px;
+     transition:  0.5s ease-in-out;
+     list-style: none;
+}
+#lastul a{
+    margin-left: 20px;
+}
+#lastul a:hover{
+
+   color: crimson;
+}

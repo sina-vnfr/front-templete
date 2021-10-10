@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior:smooth;
+}
+#main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)0%, rgba(0,0,0,0.5)0%), url(contact.jpg);
+    background-size:100% 100vh;
+    background-repeat: no-repeat;
+    background-position:top;
+    height: 180vh;
+    
+    
+}
+#divlist{
+ 
+    background-color:yellowgreen;
+    height: 50px;
+    width: 100%;
+    margin: auto;
+    position:fixed;
+    z-index: 2;
+       
+}
+#divlist  ul{
+    display: flex;
+    float: left;
+    list-style: none;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#divlist ul li a{
+   
+    margin-left: 200px;
+    text-decoration: none;
+    color: white;
+    size: 20px;
+    font-size: 20px;
+    transition:  0.5s ease-in-out;
+  
+}
+#divlist ul li a:hover{
+    color: black;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    padding-bottom: 5px;
+    border-right: none;
+}
+#backName{
+    font-size: 60px;
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 370px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: aliceblue; 
+    
+}
+#line1{
+    position: absolute;
+    height: 100px;
+    margin-top: 650px;
+}
+h2{
+    
+    color:white;
+    font-family:sans-serif;
+    text-shadow: 5px 5px 5px #000;
+}
+#picul{
+    display: flex;
+    float: left;
+    list-style: none;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 700px;
+}
+#logo1{
+    width: 170px;
+    height: 170px;
+    margin-top: 80px;
+    margin-left: 200px;
+}
+#logo2{
+    width: 150px;
+    height: 150px;
+    margin-top: 90px;
+    margin-left: 190px;
+}
+#logo3{
+    width: 150px;
+    height: 150px;
+    margin-top: 95px;
+    margin-left: 200px;
+}
+.links{
+   
+    text-decoration: none;
+    font-size: 20px;
+  
+}
+.links:hover{
+    color:black;
+    font-size: 30px;
+}
+#emaildiv{
+    position: absolute;
+    margin-top: 1000px;
+    margin-left: 30px;
+    font-size: 30px;
+}
+#emaila:hover{
+  cursor: pointer;
+}
+#line4{
+    position: absolute;
+    height: 120px;
+    margin-top: 1100px;
+}
+#lastdiv{
+    position: absolute;
+    margin-top: 1100px;
+    margin-left: 20px;
+}
+#lastul{
+     display: flex;
+     margin-left: 10px;
+     margin-top: 30px;
+     transition:  0.5s ease-in-out;
+     list-style: none;
+}
+#lastul a{
+    margin-left: 20px;
+}
+#lastul a:hover{
+
+   color: crimson;
+}

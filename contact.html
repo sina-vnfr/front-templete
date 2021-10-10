@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="contactStyle.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    </head>
+    <body>
+        <div id="main">
+
+            <div id="divlist">
+                <ul>
+                    <li> <h2>SINA VNFR</h2></li>
+                    <li> <a href="index.html">home</a></li>
+                    <li> <a href="about.html">about sina</a></li>
+                    <li> <a href="contact.html">contact with sina</a></li>
+                    <li> <a href="#">your offers</a></li>
+                </ul> 
+              </div>
+
+              <div id="backName">
+                <p>contact to Sina Vanaeifar</p>
+             </div>
+             
+             <hr id="line1" width="100%"  color="rgb(100, 100, 100)"/>
+
+             <ul id="picul">
+                <li>
+                         <img id="logo1" src="email2.png" alt="email">
+                         <a class="links" id="emaila" onclick="show()">email</a>
+                </li>
+                <li>
+                   <img id="logo2" src="telegram.png" alt="telegram">
+                   <a class="links" href="https://t.me/sina_vnfr" target="_block">telegram</a>
+                </li>
+                <li>
+                   <img id="logo3" src="insta.png" alt="instagram">
+                   <a class="links"  href="https://www.instagram.com/sina_vnfr/" target="_block">instagram</a>
+                </li>
+             </ul>
+             <div id="emaildiv">
+
+             </div>
+
+             <hr id="line4" width="100%" color="black" />
+
+             <div id="lastdiv">
+                <ul id="lastul">
+                   <li> <h2>SINA VNFR</h2></li>
+                   <li> <a href="#">home</a></li>
+                   <li> <a href="#">about sina</a></li>
+                   <li> <a href="#">contact with sina</a></li>
+                   <li> <a href="#">your offers</a></li>
+               </ul> 
+             </div>
+
+        </div>
+        <script>
+              var m=0;
+            function show()
+            {
+              
+                if(m==0){
+                var p=document.createElement("p");
+                var txt=document.createTextNode("sina email is : sina.vnfr2020@gmail.com")
+                p.appendChild(txt)
+
+                var div= document.getElementById("emaildiv")
+                div.appendChild(p)
+
+                m=1;
+                }
+
+            }
+
+        </script>
+    </body>
+</html>
